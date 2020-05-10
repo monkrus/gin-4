@@ -5,12 +5,13 @@
 [GIN-debug] GET    /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
 [GIN-debug] HEAD   /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
 [GIN-debug] Loaded HTML Templates (4): 
-	- header.html
-	- index.html
 	- 
 	- footer.html
+	- header.html
+	- index.html
 
 [GIN-debug] GET    /api/videos               --> main.main.func1 (3 handlers)
 [GIN-debug] POST   /api/videos               --> main.main.func2 (3 handlers)
 [GIN-debug] GET    /view/videos              --> github.com/monkrus/gin-4/controller.VideoController.ShowAll-fm (3 handlers)
 [GIN-debug] Listening and serving HTTP on :8080
+::1 - [10 May 20 11:41 MST] POST /view/videos 404 0s 
